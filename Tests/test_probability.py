@@ -5,5 +5,5 @@ def test_expected_cost():
     assert bernoulli_expected_cost(0.004, 500_000) == 2_000
 
 
-deft test_zero_probability():
+def test_zero_probability():
     assert bernoulli_expected_cost(0, 500_000) == 0 
